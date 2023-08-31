@@ -1,0 +1,1 @@
+alter table cliente add estado varchar(50) not null;

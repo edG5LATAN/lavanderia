@@ -1,0 +1,9 @@
+create table cliente(
+id BIGINT NOT NULL AUTO_INCREMENT,
+nombre VARCHAR(100) NOT NULL,
+telefono VARCHAR(50) NOT NULL,
+fecha VARCHAR(50) NOT NULL,
+peso VARCHAR(50) NOT NULL,
+nota VARCHAR(200),
+PRIMARY KEY(id)
+);
